@@ -1,0 +1,9 @@
+BEGIN;
+
+CREATE DATABASE ebradb;
+
+CREATE USER capivo WITH SUPERUSER PASSWORD 'capivo';
+
+ALTER DATABASE ebradb OWNER TO capivo;
+
+COMMIT;
