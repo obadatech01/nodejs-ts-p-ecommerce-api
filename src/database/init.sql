@@ -1,9 +1,7 @@
 BEGIN;
 
-CREATE DATABASE ebradb;
+CREATE DATABASE ecommerceDB;
 
-CREATE USER capivo WITH SUPERUSER PASSWORD 'capivo';
-
-ALTER DATABASE ebradb OWNER TO capivo;
+ALTER DATABASE ecommerceDB OWNER TO postgres;
 
 COMMIT;

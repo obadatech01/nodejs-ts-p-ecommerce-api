@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/obadatech01/nodejs-ts-p-ecommerce-api#readme",
   "dependencies": {
-    "@babel/core": "^7.22.11",    
+    "@babel/core": "^7.22.11",
     "babel-jest": "^29.6.4",
     "bcrypt": "^5.1.1",
     "compression": "^1.7.4",
